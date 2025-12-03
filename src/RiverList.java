@@ -4,13 +4,13 @@ import java.util.Comparator;
 /**
  * Класс для управления списком рек.
  */
-public class RiversList {
+public class RiverList {
     private ArrayList<River> rivers;
 
     /**
      * Конструктор инициализирует пустой список рек.
      */
-    public RiversList() {rivers = new ArrayList<>();}
+    public RiverList() {rivers = new ArrayList<>();}
 
     /**
      * Добавляет реку в список.
