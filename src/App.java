@@ -5,14 +5,14 @@ import java.util.Scanner;
  */
 public class App {
     private static Scanner _in;
-    private RiversList rivers;
+    private RiverList rivers;
 
     /**
      * Конструктор инициализирует список рек и сканер ввода.
      */
     public App(){
         _in = new Scanner(System.in);
-        rivers = new RiversList();
+        rivers = new RiverList();
     }
 
     /**
